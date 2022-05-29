@@ -11,7 +11,8 @@
     height: $formula-height;
     border-bottom: 1px solid $border-color;
     & .info {
-        width: $width-cell;
+        width: $info-width-cell;
+        min-width: $info-width-cell;
         border-right: 1px solid $border-color;
         height: 100%;
         display: flex;
