@@ -1,0 +1,26 @@
+@import "mixins";
+@import "variables";
+
+.dashboard {
+    &__header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: $dashboard-header-height;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        z-index: 10;
+        box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    }
+    &__new {
+        margin-top: $dashboard-header-height;
+        padding: 20px;
+        background-color: rgb(212, 209, 209);
+    }
+    &__tables {
+        
+    }
+}
