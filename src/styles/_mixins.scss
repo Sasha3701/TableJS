@@ -1,0 +1,27 @@
+@import "variables";
+
+@mixin button($color: green) {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    padding: 3px;
+    text-align: center;
+    color: black;
+
+    & span {
+        font-size: 18px;
+    }
+
+    &:active, .active {
+        color: $color;
+    }
+
+    &:hover {
+        background-color: #c0c0c040;
+    }
+}
